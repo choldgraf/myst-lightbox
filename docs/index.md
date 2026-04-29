@@ -20,18 +20,24 @@ For example, click any image below.
 
 ## A figure with a caption
 
+This uses a myst `{figure}` directive:
+
 :::{figure} https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600
 :alt: A mountain lake at dusk
 :width: 80%
 
-A mountain lake at dusk — the caption is shown in the lightbox too.
+A mountain lake at dusk (the caption is shown in the lightbox too!).
 :::
 
 ## A plain Markdown image
 
+This uses markdown image syntax like `![]()`:
+
 ![A forest path](https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600)
 
 ## The `{image}` role
+
+This uses the `{image}` role:
 
 ```{image} https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600
 :alt: Foggy forest
